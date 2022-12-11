@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <script src="JS/main.js">
+            
+        </script>
+    </head>
+
+    <!--Body-->
+    <body>
+
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+       
+            <p id="Time_of_Day"></p><!--responds with timeframe of day-->
+            <button onclick="Time_Function()">Click Here to see the time of day!</button>
+        <br>
+        <br> 
+        <p>Please enter your guess at the price of a new set of screwdrivers.</p>
+        <input id="Price" value="34" /><br><br>
+        <button onclick="Test_Function()">Check your price Here</button> <!--Requests input price to utilize if statement-->
+            <p id="Solution"></p>
+            <br>       
+        <br>
+        <p id="Intended_Fail" onclick="Bad_Function()">Click on this text to see a surprise.</P><!--intentional bad reference in JS file Bad-Function-->
+        <br>
+        <br>
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p>&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
