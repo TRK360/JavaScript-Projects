@@ -1,0 +1,104 @@
+html {
+    background-color: aqua;
+    text-align:center;
+}
+
+h3 {
+    color: blue;
+    font-size:23px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+
+#menuBG {
+    width: 600px;
+    height: 770px;
+    background-color:rgb(30, 210, 30);
+    margin: 10px auto;
+    
+    font-family:"calibri", "shruti";
+}
+
+#frmMenu {
+        width: 600px;
+        height: 200px;
+        text-align:center;
+
+}
+
+#totalPrice {
+    width: 180px;
+    height: 90px;
+    margin: 0;
+   color: rgb(212, 57, 57);
+   
+
+}
+
+.left {
+            width: 180px;
+            height: 200px;
+            float: left;
+            font-family: "Arial";
+            color:brown;
+            text-align: left;
+
+
+}
+
+.right {
+          
+            display: block;
+            display:inline-block;
+            width: 180px;
+            height: 200px;
+            
+           
+            margin-left: 3px;
+            color:brown;
+            text-align: left;
+}
+.end {
+    width: 180px;
+    height: 200px;
+    float: right;
+    color:brown;
+    text-align: left;
+
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#cart {
+        top: 0;
+        width: 400px;
+        height: 260px;
+        text-align: center;
+        background-color:cornflowerblue;
+        border-radius: 30px;
+        margin: 0 auto;
+        transform: translate(0px,170px);
+        
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 10px;
+    width: 100px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 7px;
+    color: cornsilk;
+    font-weight: 900;
+    font-style:italic;
+    
+
+}
