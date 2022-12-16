@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Basic AJAX Demo</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+        <div class='content' id="content">
+            <input type="button" class="button" value="Get Content" id="btn_content" onclick="getContent();"/>
+
+        </div>
+        <script type="text/javascript">
+            // beginning 1 thru 4 of XTML interaction
+                var ajax= new XMLHttpRequest();
+
+                ajax.open('GET', 'content.html');
+
+                ajax.onreadystatechange = function()    {
+                        if (ajax.readyState==4) {
+                                document.getElementById('content').innerHTML=ajax.responseText;
+                        }
+
+
+                }
+            function getContent() {
+                    ajax.send();
+                    document.getElementById('btn_content').style.display='none'
+
+            }
+
+//request Initialization (0); opening content, validation of XML state (1-3); Request is executed after complete [server-side] (4)
+
+        </script>
+</body>
+
+</html>
