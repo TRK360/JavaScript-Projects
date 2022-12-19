@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+
+        <title> Jquery Styling and Events</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+     
+    </head>
+
+         <!--Beginning JQuery-->  
+     <script> 
+//upon upload apply the noted effects including text
+
+            $(document).ready(function(){
+                    $("html").append(
+                        "<body>\
+                            <div id='container'>\
+                            <div id='inner'\
+                            <h1 id='hh'>Basic Sample Header</h1>\
+                                <p id='1'>SAMPLE TEXT 1</p>\
+                                <p id='2'>SAMPLE TEXT 2</p>\
+                                <p id='3'>SAMPLE TEXT 3</p>\
+                                <p id='4'>See postion of P1</p>\
+                            </div>\
+                            </div>\
+                      </body>"
+
+                    );
+//upon activation, apply css styling and initiate awareness of clicking event on element id #4
+
+                $("#2").css({"color":"green"});
+                $("#4").click(function() 
+                
+                    {var p = $( "#1" ).first();//declares variable with info about a paragraph element
+                    var position = p.position();
+                        $( "#4" ).last().text( "left: " + position.left + ", top: " + position.top);   
+                        $("#4").fadeOut(1000);  //after click and answer revealed, fadeout
+                        console.log("An input value has Been revealed! ");}); //console log event
+
+            });
+
+            
+      
+
+        </script>
+
+
+</html>
