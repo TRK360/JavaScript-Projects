@@ -3,7 +3,8 @@
 
 
 The below is a listing of the JavaScript (and more) related projects included in this repository:
-    - Projects 1-3: 
+
+- Projects 1-3: 
     
 Include an assortment of mathematical functions utilizing JavaScript code formulated in an independent .js file.  Functions include addition, subtraction, multiplication, modulus operators, concatenation and variable modification examples.
 
